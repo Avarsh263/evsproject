@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data and Hotspots</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="causes.html"><i class="fas fa-exclamation-circle"></i> Causes</a></li>
+                <li><a href="data.html"><i class="fas fa-chart-bar"></i> Data</a></li>
+                <li><a href="solutions.html"><i class="fas fa-lightbulb"></i> Solutions</a></li>
+                <li><a href="resources.html"><i class="fas fa-book"></i> Resources</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" style="background-image: url('./images/pexels-ron-lach-7944397.jpg');">
+            <h1>Data and Hotspots</h1>
+            <p>Understanding the data behind soil pollution helps in identifying hotspots and developing effective mitigation strategies.</p>
+        </section>
+
+        <div class="card-container">
+            <div class="card">
+                <h2>Global Statistics</h2>
+                <p>Soil pollution affects regions worldwide, with significant impacts on ecosystems and human health.</p>
+                <a href="#" class="btn">View Statistics</a>
+            </div>
+            <div class="card">
+                <h2>Hotspot Analysis</h2>
+                <p>Identifying hotspots of soil pollution is crucial for targeted interventions and policy decisions.</p>
+                <a href="#" class="btn">Analyze Hotspots</a>
+            </div>
+            <div class="card">
+                <h2>Research and Studies</h2>
+                <p>Access research papers and studies on soil pollution to deepen your understanding of the issue.</p>
+                <a href="#" class="btn">Read Studies</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Soil Pollution</p>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
